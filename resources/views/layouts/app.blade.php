@@ -10,8 +10,9 @@
     @livewireStyles
 </head>
 <body>
-    {{$slot}}
+ 
+  @yield('content')
 
-@livewireScripts
+  @livewireScripts
 </body>
 </html>
